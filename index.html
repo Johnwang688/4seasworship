@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4 Seas Praise - Playlist</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            background-color: #0f0f0f;
+            color: #fff;
+            padding: 20px;
+        }
+        h1 {
+            color: #fff;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .playlist-layout {
+            display: flex;
+            gap: 20px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .main-player {
+            flex: 1;
+            min-width: 0;
+        }
+        .video-player {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            background: #000;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .video-player iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .video-info {
+            padding: 16px 0;
+        }
+        .video-title {
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+        .video-channel {
+            color: #aaa;
+            font-size: 14px;
+        }
+        .playlist-sidebar {
+            width: 400px;
+            background: #212121;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .playlist-header {
+            padding: 12px 16px;
+            background: #272727;
+            border-bottom: 1px solid #3f3f3f;
+        }
+        .playlist-title {
+            font-size: 16px;
+            font-weight: 500;
+        }
+        .playlist-videos {
+            height: 600px;
+            overflow-y: auto;
+        }
+        .playlist-videos::-webkit-scrollbar {
+            width: 8px;
+        }
+        .playlist-videos::-webkit-scrollbar-track {
+            background: #212121;
+        }
+        .playlist-videos::-webkit-scrollbar-thumb {
+            background: #717171;
+            border-radius: 4px;
+        }
+        .playlist-videos::-webkit-scrollbar-thumb:hover {
+            background: #909090;
+        }
+        .video-item {
+            display: flex;
+            padding: 8px;
+            cursor: pointer;
+            transition: background 0.2s;
+            border-bottom: 1px solid #3f3f3f;
+        }
+        .video-item:hover {
+            background: #3f3f3f;
+        }
+        .video-item.active {
+            background: #065fd4;
+        }
+        .video-thumbnail {
+            position: relative;
+            width: 168px;
+            height: 94px;
+            flex-shrink: 0;
+            border-radius: 8px;
+            overflow: hidden;
+            background: #000;
+        }
+        .video-thumbnail img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .video-duration {
+            position: absolute;
+            bottom: 4px;
+            right: 4px;
+            background: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            padding: 2px 4px;
+            border-radius: 2px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+        .video-details {
+            flex: 1;
+            padding-left: 12px;
+            min-width: 0;
+        }
+        .video-item-title {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.4;
+            margin-bottom: 4px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            line-clamp: 2;
+            -webkit-box-orient: vertical;
+        }
+        .video-item-channel {
+            font-size: 12px;
+            color: #aaa;
+        }
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #aaa;
+        }
+        @media (max-width: 968px) {
+            .playlist-layout {
+                flex-direction: column;
+            }
+            .playlist-sidebar {
+                width: 100%;
+            }
+            .playlist-videos {
+                height: 400px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to 4 Seas Praise</h1>
+    
+    <div class="playlist-layout">
+        <div class="main-player">
+            <div class="video-player">
+                <iframe 
+                    id="mainPlayer"
+                    src=""
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <div class="video-info">
+                <div class="video-title" id="currentTitle">Loading...</div>
+                <div class="video-channel" id="currentChannel"></div>
+            </div>
+        </div>
+        
+        <div class="playlist-sidebar">
+            <div class="playlist-header">
+                <div class="playlist-title">Playlist</div>
+            </div>
+            <div class="playlist-videos" id="playlistVideos">
+                <div class="loading">Loading videos...</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_KEY = 'AIzaSyBTqvXn-AlhBTyteTZVO_l1Zz0mHySAv2o';
+        const PLAYLIST_ID = 'PL_DvPl8vaxH7kAHtuZMZpOCUyACY-8hls';
+        
+        // Store all video data in a list
+        let videoList = [];
+        let currentVideoIndex = 0;
+
+        // Fetch playlist data once and store all video links
+        async function loadPlaylist() {
+            try {
+                console.log('Fetching playlist data...');
+                const url = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet,contentDetails&maxResults=50&playlistId=${PLAYLIST_ID}&key=${API_KEY}`;
+                
+                const response = await fetch(url);
+                const data = await response.json();
+                
+                console.log('API Response:', data);
+                
+                // Check for API errors
+                if (data.error) {
+                    const errorMsg = `API Error: ${data.error.message}\nCode: ${data.error.code}\nDetails: ${JSON.stringify(data.error.errors)}`;
+                    console.error(errorMsg);
+                    document.getElementById('playlistVideos').innerHTML = 
+                        `<div class="loading">API Error: ${data.error.message}<br><br>Code: ${data.error.code}<br><br>Check console for details</div>`;
+                    alert(errorMsg);
+                    return;
+                }
+                
+                // Store all video data, filter out invalid videos
+                if (data.items && data.items.length > 0) {
+                    videoList = data.items
+                        .filter(item => {
+                            // Filter out private/deleted videos
+                            return item.snippet && 
+                                   item.snippet.title !== 'Private video' &&
+                                   item.snippet.title !== 'Deleted video' &&
+                                   item.snippet.thumbnails &&
+                                   item.contentDetails &&
+                                   item.contentDetails.videoId;
+                        })
+                        .map(item => ({
+                            videoId: item.contentDetails.videoId,
+                            title: item.snippet.title,
+                            channel: item.snippet.channelTitle || 'Unknown Channel',
+                            thumbnail: item.snippet.thumbnails.medium?.url || 
+                                      item.snippet.thumbnails.default?.url || 
+                                      'https://via.placeholder.com/320x180?text=No+Thumbnail',
+                            embedUrl: `https://www.youtube.com/embed/${item.contentDetails.videoId}`
+                        }));
+                    
+                    console.log(`Loaded ${videoList.length} valid videos (filtered from ${data.items.length} total)`);
+                    
+                    if (videoList.length > 0) {
+                        // Display first video in player and rest as thumbnails
+                        displayPlaylist();
+                        playVideoByIndex(0);
+                    } else {
+                        document.getElementById('playlistVideos').innerHTML = 
+                            '<div class="loading">No accessible videos found in playlist.</div>';
+                    }
+                } else {
+                    document.getElementById('playlistVideos').innerHTML = 
+                        '<div class="loading">No videos found in playlist.</div>';
+                }
+            } catch (error) {
+                console.error('Fetch Error:', error);
+                document.getElementById('playlistVideos').innerHTML = 
+                    `<div class="loading">Network Error: ${error.message}<br><br>Check console for details</div>`;
+                alert(`Error: ${error.message}\n\nMake sure:\n1. Your internet is working\n2. API key is valid\n3. YouTube Data API v3 is enabled`);
+            }
+        }
+
+        // Display all video thumbnails in the sidebar
+        function displayPlaylist() {
+            const container = document.getElementById('playlistVideos');
+            container.innerHTML = videoList.map((video, index) => {
+                return `
+                    <div class="video-item ${index === 0 ? 'active' : ''}" data-index="${index}" onclick="playVideoByIndex(${index})">
+                        <div class="video-thumbnail">
+                            <img src="${video.thumbnail}" alt="${video.title}">
+                        </div>
+                        <div class="video-details">
+                            <div class="video-item-title">${video.title}</div>
+                            <div class="video-item-channel">${video.channel}</div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // Play video by index - stops current video and plays new one
+        function playVideoByIndex(index) {
+            if (index < 0 || index >= videoList.length) return;
+            
+            currentVideoIndex = index;
+            const video = videoList[index];
+            
+            // Stop current video by replacing iframe src (autoplay=1 starts new video)
+            const iframe = document.getElementById('mainPlayer');
+            iframe.src = `${video.embedUrl}?autoplay=1&enablejsapi=1`;
+            
+            // Update video info
+            document.getElementById('currentTitle').textContent = video.title;
+            document.getElementById('currentChannel').textContent = video.channel;
+            
+            // Update active state in sidebar
+            document.querySelectorAll('.video-item').forEach((item, i) => {
+                if (i === index) {
+                    item.classList.add('active');
+                } else {
+                    item.classList.remove('active');
+                }
+            });
+            
+            console.log(`Playing video ${index + 1}/${videoList.length}: ${video.title}`);
+        }
+
+        // Load playlist when page loads
+        loadPlaylist();
+    </script>
+</body>
+</html>
