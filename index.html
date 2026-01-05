@@ -176,7 +176,7 @@
     </style>
 </head>
 <body>
-    <h1>四海颂扬音乐事工</h1>
+    <h1>Welcome to 4 Seas Praise</h1>
     
     <div class="playlist-layout">
         <div class="main-player">
@@ -214,51 +214,58 @@
         let videoList = [];
         let currentVideoIndex = 0;
 
-        // Load playlist data from videos.json (updated daily by GitHub Actions)
-        // Falls back to API if JSON is empty/unavailable
+        // Try loading from videos.json first, fallback to API if needed
         async function loadPlaylist() {
             try {
-                console.log('Loading playlist from videos.json...');
+                console.log('Attempting to load from videos.json...');
                 const response = await fetch('videos.json');
-                const data = await response.json();
                 
-                // If JSON has videos, use cached data
-                if (data.videos && data.videos.length > 0) {
-                    videoList = data.videos;
+                if (response.ok) {
+                    const data = await response.json();
                     
-                    console.log(`Loaded ${videoList.length} videos from cached data`);
-                    console.log(`Last updated: ${new Date(data.lastUpdated).toLocaleString()}`);
-                    
-                    document.getElementById('lastUpdated').textContent = 
-                        `Last updated: ${new Date(data.lastUpdated).toLocaleString()}`;
-                    
-                    displayPlaylist();
-                    playVideoByIndex(0);
+                    // Check if videos.json has actual data
+                    if (data.videos && data.videos.length > 0) {
+                        videoList = data.videos;
+                        console.log(`✅ Loaded ${videoList.length} videos from cached data`);
+                        console.log(`Last updated: ${new Date(data.lastUpdated).toLocaleString()}`);
+                        
+                        document.getElementById('lastUpdated').textContent = 
+                            `Last updated: ${new Date(data.lastUpdated).toLocaleString()}`;
+                        
+                        displayPlaylist();
+                        playVideoByIndex(0);
+                        return;
+                    } else {
+                        console.log('videos.json is empty, falling back to API...');
+                    }
                 } else {
-                    // Fallback to API if JSON is empty
-                    console.log('videos.json is empty, falling back to API...');
-                    await loadFromAPI();
+                    console.log('videos.json not found, falling back to API...');
                 }
             } catch (error) {
-                // Fallback to API if JSON loading fails
-                console.log('Failed to load videos.json, falling back to API:', error);
-                await loadFromAPI();
+                console.log('Could not load videos.json, falling back to API...', error);
             }
+            
+            // Fallback: Load from API (for local testing or if videos.json doesn't exist)
+            await loadFromAPI();
         }
 
-        // Fallback: Load directly from YouTube API
+        // Fetch from YouTube API
         async function loadFromAPI() {
             try {
                 console.log('Fetching from YouTube API...');
+                document.getElementById('lastUpdated').textContent = 'Loading from API...';
+                
                 const url = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet,contentDetails&maxResults=50&playlistId=${PLAYLIST_ID}&key=${API_KEY}`;
                 
                 const response = await fetch(url);
                 const data = await response.json();
                 
                 if (data.error) {
-                    console.error('API Error:', data.error);
+                    const errorMsg = `API Error: ${data.error.message}\nCode: ${data.error.code}`;
+                    console.error(errorMsg, data.error);
                     document.getElementById('playlistVideos').innerHTML = 
                         `<div class="loading">API Error: ${data.error.message}</div>`;
+                    document.getElementById('lastUpdated').textContent = 'Error loading videos';
                     return;
                 }
                 
@@ -282,24 +289,18 @@
                             embedUrl: `https://www.youtube.com/embed/${item.contentDetails.videoId}`
                         }));
                     
-                    console.log(`Loaded ${videoList.length} videos from API`);
-                    
+                    console.log(`✅ Loaded ${videoList.length} videos from API`);
                     document.getElementById('lastUpdated').textContent = 
-                        'Loading from API (will use cached data once deployed)';
+                        `Loaded from API at ${new Date().toLocaleString()}`;
                     
-                    if (videoList.length > 0) {
-                        displayPlaylist();
-                        playVideoByIndex(0);
-                    } else {
-                        document.getElementById('playlistVideos').innerHTML = 
-                            '<div class="loading">No accessible videos found.</div>';
-                    }
+                    displayPlaylist();
+                    playVideoByIndex(0);
                 } else {
                     document.getElementById('playlistVideos').innerHTML = 
                         '<div class="loading">No videos found.</div>';
                 }
             } catch (error) {
-                console.error('API Error:', error);
+                console.error('API Fetch Error:', error);
                 document.getElementById('playlistVideos').innerHTML = 
                     `<div class="loading">Error: ${error.message}</div>`;
             }
@@ -323,22 +324,19 @@
             }).join('');
         }
 
-        // Play video by index - stops current video and plays new one
+        // Play video by index
         function playVideoByIndex(index) {
             if (index < 0 || index >= videoList.length) return;
             
             currentVideoIndex = index;
             const video = videoList[index];
             
-            // Stop current video by replacing iframe src (autoplay=1 starts new video)
             const iframe = document.getElementById('mainPlayer');
             iframe.src = `${video.embedUrl}?autoplay=1&enablejsapi=1`;
             
-            // Update video info
             document.getElementById('currentTitle').textContent = video.title;
             document.getElementById('currentChannel').textContent = video.channel;
             
-            // Update active state in sidebar
             document.querySelectorAll('.video-item').forEach((item, i) => {
                 if (i === index) {
                     item.classList.add('active');
@@ -346,8 +344,6 @@
                     item.classList.remove('active');
                 }
             });
-            
-            console.log(`Playing video ${index + 1}/${videoList.length}: ${video.title}`);
         }
 
         // Load playlist when page loads
