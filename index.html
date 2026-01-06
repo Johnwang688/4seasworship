@@ -181,13 +181,7 @@
     <div class="playlist-layout">
         <div class="main-player">
             <div class="video-player">
-                <iframe 
-                    id="mainPlayer"
-                    src=""
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen>
-                </iframe>
+                <div id="mainPlayer"></div>
             </div>
             <div class="video-info">
                 <div class="video-title" id="currentTitle">Loading...</div>
@@ -217,6 +211,8 @@
         let videoList = [];
         let currentVideoIndex = 0;
         let player;
+        let apiReady = false;
+        let videosLoaded = false;
 
         // Try loading from videos.json first, fallback to API if needed
         async function loadPlaylist() {
@@ -237,7 +233,10 @@
                             `Last updated: ${new Date(data.lastUpdated).toLocaleString()}`;
                         
                         displayPlaylist();
-                        loadFirstVideo();
+                        videosLoaded = true;
+                        if (apiReady) {
+                            loadFirstVideo();
+                        }
                         return;
                     } else {
                         console.log('videos.json is empty, falling back to API...');
@@ -298,7 +297,10 @@
                         `Loaded from API at ${new Date().toLocaleString()}`;
                     
                     displayPlaylist();
-                    loadFirstVideo();
+                    videosLoaded = true;
+                    if (apiReady) {
+                        loadFirstVideo();
+                    }
                 } else {
                     document.getElementById('playlistVideos').innerHTML = 
                         '<div class="loading">No videos found.</div>';
@@ -330,9 +332,11 @@
 
         // Load first video without autoplay (to avoid browser restrictions)
         function loadFirstVideo() {
-            if (videoList.length > 0) {
+            if (videoList.length > 0 && !player) {
                 currentVideoIndex = 0;
                 const video = videoList[0];
+                
+                console.log('Initializing player with video:', video.title);
                 
                 // Initialize player with first video (no autoplay)
                 player = new YT.Player('mainPlayer', {
@@ -354,7 +358,11 @@
 
         // Initialize YouTube player when API is ready
         function onYouTubeIframeAPIReady() {
-            // Player will be initialized by loadFirstVideo()
+            console.log('YouTube API is ready');
+            apiReady = true;
+            if (videosLoaded) {
+                loadFirstVideo();
+            }
         }
 
         // Called when player is ready
