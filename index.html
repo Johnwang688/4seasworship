@@ -213,6 +213,16 @@
         let player;
         let apiReady = false;
         let videosLoaded = false;
+        let apiTimeout;
+
+        // Set a timeout to check if YouTube API loaded
+        apiTimeout = setTimeout(() => {
+            if (!apiReady && videosLoaded) {
+                console.warn('YouTube API timeout, trying to initialize anyway...');
+                apiReady = true;
+                loadFirstVideo();
+            }
+        }, 5000); // Wait 5 seconds for API to load
 
         // Try loading from videos.json first, fallback to API if needed
         async function loadPlaylist() {
@@ -338,27 +348,44 @@
                 
                 console.log('Initializing player with video:', video.title);
                 
-                // Initialize player with first video (no autoplay)
-                player = new YT.Player('mainPlayer', {
-                    videoId: video.videoId,
-                    playerVars: {
-                        'enablejsapi': 1,
-                        'rel': 0
-                    },
-                    events: {
-                        'onStateChange': onPlayerStateChange,
-                        'onReady': onPlayerReady
-                    }
-                });
+                // Check if YouTube API is available
+                if (typeof YT === 'undefined' || typeof YT.Player === 'undefined') {
+                    console.error('YouTube API not loaded, retrying in 2 seconds...');
+                    setTimeout(loadFirstVideo, 2000);
+                    return;
+                }
                 
-                document.getElementById('currentTitle').textContent = video.title;
-                document.getElementById('currentChannel').textContent = video.channel;
+                try {
+                    // Initialize player with first video (no autoplay)
+                    player = new YT.Player('mainPlayer', {
+                        height: '100%',
+                        width: '100%',
+                        videoId: video.videoId,
+                        playerVars: {
+                            'enablejsapi': 1,
+                            'rel': 0,
+                            'modestbranding': 1
+                        },
+                        events: {
+                            'onStateChange': onPlayerStateChange,
+                            'onReady': onPlayerReady,
+                            'onError': onPlayerError
+                        }
+                    });
+                    
+                    document.getElementById('currentTitle').textContent = video.title;
+                    document.getElementById('currentChannel').textContent = video.channel;
+                } catch (error) {
+                    console.error('Error initializing player:', error);
+                    setTimeout(loadFirstVideo, 2000);
+                }
             }
         }
 
         // Initialize YouTube player when API is ready
         function onYouTubeIframeAPIReady() {
             console.log('YouTube API is ready');
+            clearTimeout(apiTimeout);
             apiReady = true;
             if (videosLoaded) {
                 loadFirstVideo();
@@ -368,6 +395,11 @@
         // Called when player is ready
         function onPlayerReady(event) {
             console.log('Player is ready');
+        }
+
+        // Handle player errors
+        function onPlayerError(event) {
+            console.error('Player error:', event.data);
         }
 
         // Handle player state changes
