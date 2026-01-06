@@ -237,7 +237,7 @@
                             `Last updated: ${new Date(data.lastUpdated).toLocaleString()}`;
                         
                         displayPlaylist();
-                        playVideoByIndex(0);
+                        loadFirstVideo();
                         return;
                     } else {
                         console.log('videos.json is empty, falling back to API...');
@@ -298,7 +298,7 @@
                         `Loaded from API at ${new Date().toLocaleString()}`;
                     
                     displayPlaylist();
-                    playVideoByIndex(0);
+                    loadFirstVideo();
                 } else {
                     document.getElementById('playlistVideos').innerHTML = 
                         '<div class="loading">No videos found.</div>';
@@ -328,13 +328,38 @@
             }).join('');
         }
 
+        // Load first video without autoplay (to avoid browser restrictions)
+        function loadFirstVideo() {
+            if (videoList.length > 0) {
+                currentVideoIndex = 0;
+                const video = videoList[0];
+                
+                // Initialize player with first video (no autoplay)
+                player = new YT.Player('mainPlayer', {
+                    videoId: video.videoId,
+                    playerVars: {
+                        'enablejsapi': 1,
+                        'rel': 0
+                    },
+                    events: {
+                        'onStateChange': onPlayerStateChange,
+                        'onReady': onPlayerReady
+                    }
+                });
+                
+                document.getElementById('currentTitle').textContent = video.title;
+                document.getElementById('currentChannel').textContent = video.channel;
+            }
+        }
+
         // Initialize YouTube player when API is ready
         function onYouTubeIframeAPIReady() {
-            player = new YT.Player('mainPlayer', {
-                events: {
-                    'onStateChange': onPlayerStateChange
-                }
-            });
+            // Player will be initialized by loadFirstVideo()
+        }
+
+        // Called when player is ready
+        function onPlayerReady(event) {
+            console.log('Player is ready');
         }
 
         // Handle player state changes
@@ -357,20 +382,20 @@
             }
         }
 
-        // Play video by index
+        // Play video by index (called when user clicks a video)
         function playVideoByIndex(index) {
             if (index < 0 || index >= videoList.length) return;
             
             currentVideoIndex = index;
             const video = videoList[index];
             
-            // Load video with autoplay enabled
+            // Load and play video (autoplay works after user interaction)
             if (player && player.loadVideoById) {
-                player.loadVideoById(video.videoId);
-            } else {
-                // Fallback for initial load before API is ready
-                const iframe = document.getElementById('mainPlayer');
-                iframe.src = `${video.embedUrl}?autoplay=1&enablejsapi=1`;
+                player.loadVideoById({
+                    'videoId': video.videoId,
+                    'suggestedQuality': 'large'
+                });
+                player.playVideo();
             }
             
             document.getElementById('currentTitle').textContent = video.title;
