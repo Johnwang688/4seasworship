@@ -207,12 +207,16 @@
     
     <div class="last-updated" id="lastUpdated"></div>
 
+    <!-- YouTube IFrame API -->
+    <script src="https://www.youtube.com/iframe_api"></script>
+    
     <script>
         const API_KEY = 'AIzaSyBTqvXn-AlhBTyteTZVO_l1Zz0mHySAv2o';
         const PLAYLIST_ID = 'PL_DvPl8vaxH7kAHtuZMZpOCUyACY-8hls';
         
         let videoList = [];
         let currentVideoIndex = 0;
+        let player;
 
         // Try loading from videos.json first, fallback to API if needed
         async function loadPlaylist() {
@@ -324,6 +328,35 @@
             }).join('');
         }
 
+        // Initialize YouTube player when API is ready
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('mainPlayer', {
+                events: {
+                    'onStateChange': onPlayerStateChange
+                }
+            });
+        }
+
+        // Handle player state changes
+        function onPlayerStateChange(event) {
+            // YT.PlayerState.ENDED = 0
+            if (event.data === YT.PlayerState.ENDED) {
+                playNext();
+            }
+        }
+
+        // Play next video in the playlist
+        function playNext() {
+            const nextIndex = currentVideoIndex + 1;
+            if (nextIndex < videoList.length) {
+                playVideoByIndex(nextIndex);
+            } else {
+                // Optional: Loop back to the first video
+                // playVideoByIndex(0);
+                console.log('Playlist ended');
+            }
+        }
+
         // Play video by index
         function playVideoByIndex(index) {
             if (index < 0 || index >= videoList.length) return;
@@ -331,8 +364,14 @@
             currentVideoIndex = index;
             const video = videoList[index];
             
-            const iframe = document.getElementById('mainPlayer');
-            iframe.src = `${video.embedUrl}?autoplay=1&enablejsapi=1`;
+            // Load video with autoplay enabled
+            if (player && player.loadVideoById) {
+                player.loadVideoById(video.videoId);
+            } else {
+                // Fallback for initial load before API is ready
+                const iframe = document.getElementById('mainPlayer');
+                iframe.src = `${video.embedUrl}?autoplay=1&enablejsapi=1`;
+            }
             
             document.getElementById('currentTitle').textContent = video.title;
             document.getElementById('currentChannel').textContent = video.channel;
