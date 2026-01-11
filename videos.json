@@ -1,14 +1,7 @@
 {
-  "lastUpdated": "2026-01-10T06:22:09.220Z",
+  "lastUpdated": "2026-01-11T06:22:52.041Z",
   "totalVideos": 25,
   "videos": [
-    {
-      "videoId": "AA5zYNdPmc4",
-      "title": "四海之家（教会主题曲）",
-      "channel": "4C Ministries",
-      "thumbnail": "https://i.ytimg.com/vi/AA5zYNdPmc4/mqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/AA5zYNdPmc4"
-    },
     {
       "videoId": "loIN2c7qPyU",
       "title": "在你光中行走",
@@ -176,6 +169,13 @@
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/FUbRTS8y-cw/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/FUbRTS8y-cw"
+    },
+    {
+      "videoId": "AA5zYNdPmc4",
+      "title": "四海之家（教会主题曲）",
+      "channel": "4C Ministries",
+      "thumbnail": "https://i.ytimg.com/vi/AA5zYNdPmc4/mqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AA5zYNdPmc4"
     }
   ]
 }
