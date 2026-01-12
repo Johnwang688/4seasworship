@@ -1,7 +1,14 @@
 {
-  "lastUpdated": "2026-01-11T06:22:52.041Z",
+  "lastUpdated": "2026-01-12T06:28:04.019Z",
   "totalVideos": 25,
   "videos": [
+    {
+      "videoId": "AA5zYNdPmc4",
+      "title": "四海之家（教会主题曲）",
+      "channel": "4C Ministries",
+      "thumbnail": "https://i.ytimg.com/vi/AA5zYNdPmc4/mqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AA5zYNdPmc4"
+    },
     {
       "videoId": "loIN2c7qPyU",
       "title": "在你光中行走",
@@ -67,7 +74,7 @@
     },
     {
       "videoId": "4whEoWPdg98",
-      "title": "年岁的冠冕",
+      "title": "年岁���冠冕",
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/4whEoWPdg98/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/4whEoWPdg98"
@@ -169,13 +176,6 @@
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/FUbRTS8y-cw/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/FUbRTS8y-cw"
-    },
-    {
-      "videoId": "AA5zYNdPmc4",
-      "title": "四海之家（教会主题曲）",
-      "channel": "4C Ministries",
-      "thumbnail": "https://i.ytimg.com/vi/AA5zYNdPmc4/mqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/AA5zYNdPmc4"
     }
   ]
 }
