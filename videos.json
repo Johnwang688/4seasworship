@@ -1,7 +1,14 @@
 {
-  "lastUpdated": "2026-01-13T06:25:06.945Z",
-  "totalVideos": 25,
+  "lastUpdated": "2026-01-14T06:26:53.937Z",
+  "totalVideos": 26,
   "videos": [
+    {
+      "videoId": "KXduguLQdd4",
+      "title": "无与伦比的耶稣 (希伯来书1:1-3)",
+      "channel": "4C Ministries",
+      "thumbnail": "https://i.ytimg.com/vi/KXduguLQdd4/mqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KXduguLQdd4"
+    },
     {
       "videoId": "AA5zYNdPmc4",
       "title": "四海之家（教会主题曲）",
@@ -88,7 +95,7 @@
     },
     {
       "videoId": "sb3XNpX5gTs",
-      "title": "牧羊人的笛声（2025圣诞献礼）",
+      "title": "牧羊人的笛声（2025圣诞献��）",
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/sb3XNpX5gTs/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/sb3XNpX5gTs"
