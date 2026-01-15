@@ -1,7 +1,14 @@
 {
-  "lastUpdated": "2026-01-14T06:26:53.937Z",
-  "totalVideos": 26,
+  "lastUpdated": "2026-01-15T06:25:15.021Z",
+  "totalVideos": 27,
   "videos": [
+    {
+      "videoId": "RTF6qMOtzew",
+      "title": "沙伦玫瑰",
+      "channel": "4C Ministries",
+      "thumbnail": "https://i.ytimg.com/vi/RTF6qMOtzew/mqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RTF6qMOtzew"
+    },
     {
       "videoId": "KXduguLQdd4",
       "title": "无与伦比的耶稣 (希伯来书1:1-3)",
@@ -95,7 +102,7 @@
     },
     {
       "videoId": "sb3XNpX5gTs",
-      "title": "牧羊人的笛声（2025圣诞献��）",
+      "title": "牧羊人的笛声（2025圣诞献礼）",
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/sb3XNpX5gTs/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/sb3XNpX5gTs"
