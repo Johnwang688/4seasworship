@@ -1,7 +1,28 @@
 {
-  "lastUpdated": "2026-01-21T06:27:59.797Z",
-  "totalVideos": 30,
+  "lastUpdated": "2026-01-22T06:26:13.028Z",
+  "totalVideos": 33,
   "videos": [
+    {
+      "videoId": "8Ab2uJ-4CtI",
+      "title": "好在有你耶稣",
+      "channel": "4C Ministries",
+      "thumbnail": "https://i.ytimg.com/vi/8Ab2uJ-4CtI/mqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8Ab2uJ-4CtI"
+    },
+    {
+      "videoId": "3oWI2COay20",
+      "title": "水深之处 ( 路加福音 5:4)",
+      "channel": "4C Ministries",
+      "thumbnail": "https://i.ytimg.com/vi/3oWI2COay20/mqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3oWI2COay20"
+    },
+    {
+      "videoId": "ZtzkOH4JDxE",
+      "title": "最疼痛的赦免",
+      "channel": "4C Ministries",
+      "thumbnail": "https://i.ytimg.com/vi/ZtzkOH4JDxE/mqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZtzkOH4JDxE"
+    },
     {
       "videoId": "eTGKpVyeUzU",
       "title": "我是泥土 (以赛亚书64:8)",
