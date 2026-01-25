@@ -1,7 +1,14 @@
 {
-  "lastUpdated": "2026-01-24T06:23:10.504Z",
-  "totalVideos": 33,
+  "lastUpdated": "2026-01-25T06:23:34.459Z",
+  "totalVideos": 34,
   "videos": [
+    {
+      "videoId": "pf6VdDCmzgg",
+      "title": "属灵军装",
+      "channel": "4C Ministries",
+      "thumbnail": "https://i.ytimg.com/vi/pf6VdDCmzgg/mqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pf6VdDCmzgg"
+    },
     {
       "videoId": "8Ab2uJ-4CtI",
       "title": "好在有你耶稣",
@@ -60,7 +67,7 @@
     },
     {
       "videoId": "AA5zYNdPmc4",
-      "title": "四海之家（教会主题��）",
+      "title": "四海之家（教会主题曲）",
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/AA5zYNdPmc4/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/AA5zYNdPmc4"
