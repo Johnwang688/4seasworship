@@ -1,7 +1,14 @@
 {
-  "lastUpdated": "2026-02-13T06:52:18.785Z",
-  "totalVideos": 43,
+  "lastUpdated": "2026-02-17T06:51:00.276Z",
+  "totalVideos": 44,
   "videos": [
+    {
+      "videoId": "hIMlJutRfFg",
+      "title": "新年的钟声（新年特辑｜新的一年祝福满满）",
+      "channel": "4C Ministries",
+      "thumbnail": "https://i.ytimg.com/vi/hIMlJutRfFg/mqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hIMlJutRfFg"
+    },
     {
       "videoId": "Tukdfd7b8rM",
       "title": "起来与我同去（情人节特辑｜献给最温柔的良人）",
@@ -39,7 +46,7 @@
     },
     {
       "videoId": "eOjt0K4i3Dw",
-      "title": "安歇���水边（情人节特辑｜献给最温柔的良人）",
+      "title": "安歇的水边（情人节特辑｜献给最温柔的良人）",
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/eOjt0K4i3Dw/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/eOjt0K4i3Dw"
@@ -256,7 +263,7 @@
     },
     {
       "videoId": "OVxkeZgydhs",
-      "title": "伯利恒之星 （2025圣诞献礼）",
+      "title": "伯利恒之星 （2025圣诞��礼）",
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/OVxkeZgydhs/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/OVxkeZgydhs"
