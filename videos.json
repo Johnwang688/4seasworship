@@ -1,7 +1,28 @@
 {
-  "lastUpdated": "2026-03-31T06:28:03.470Z",
-  "totalVideos": 49,
+  "lastUpdated": "2026-04-01T06:33:13.312Z",
+  "totalVideos": 50,
   "videos": [
+    {
+      "videoId": "rXAzxvc9rHw",
+      "title": "百夫长的仰望 The Centurion's Confession",
+      "channel": "4C Ministries",
+      "thumbnail": "https://i.ytimg.com/vi/rXAzxvc9rHw/mqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rXAzxvc9rHw"
+    },
+    {
+      "videoId": "91ig3wpHzgE",
+      "title": "乐园的诺言 Promise of Paradise",
+      "channel": "4C Ministries",
+      "thumbnail": "https://i.ytimg.com/vi/91ig3wpHzgE/mqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/91ig3wpHzgE"
+    },
+    {
+      "videoId": "vZNGflNdwX8",
+      "title": "第九个钟头 The Ninth Hour",
+      "channel": "4C Ministries",
+      "thumbnail": "https://i.ytimg.com/vi/vZNGflNdwX8/mqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vZNGflNdwX8"
+    },
     {
       "videoId": "ocUf3jmYiPE",
       "title": "被压榨的橄榄 Crushed Olive",
@@ -330,20 +351,6 @@
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/FFtVsDItc9E/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/FFtVsDItc9E"
-    },
-    {
-      "videoId": "EiLtg2uZZg4",
-      "title": "尊主颂（2025圣诞献礼）",
-      "channel": "4C Ministries",
-      "thumbnail": "https://i.ytimg.com/vi/EiLtg2uZZg4/mqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/EiLtg2uZZg4"
-    },
-    {
-      "videoId": "FUbRTS8y-cw",
-      "title": "四海颂扬",
-      "channel": "4C Ministries",
-      "thumbnail": "https://i.ytimg.com/vi/FUbRTS8y-cw/mqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/FUbRTS8y-cw"
     }
   ]
 }
