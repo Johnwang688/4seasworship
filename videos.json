@@ -1,7 +1,28 @@
 {
-  "lastUpdated": "2026-04-05T06:25:54.318Z",
+  "lastUpdated": "2026-04-06T06:36:12.596Z",
   "totalVideos": 50,
   "videos": [
+    {
+      "videoId": "cK_Ng_cR5fQ",
+      "title": "去告诉这个世界 Go Tell the World",
+      "channel": "4C Ministries",
+      "thumbnail": "https://i.ytimg.com/vi/cK_Ng_cR5fQ/mqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cK_Ng_cR5fQ"
+    },
+    {
+      "videoId": "3VC2i7kyZRQ",
+      "title": "十架深恩 Grace of the Cross",
+      "channel": "4C Ministries",
+      "thumbnail": "https://i.ytimg.com/vi/3VC2i7kyZRQ/mqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3VC2i7kyZRQ"
+    },
+    {
+      "videoId": "85jgytxOq-c",
+      "title": "得胜的清晨 Victorious Morning",
+      "channel": "4C Ministries",
+      "thumbnail": "https://i.ytimg.com/vi/85jgytxOq-c/mqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/85jgytxOq-c"
+    },
     {
       "videoId": "0m0pBCDrcho",
       "title": "欢呼得胜君王 Shout for the Victorious King",
@@ -88,7 +109,7 @@
     },
     {
       "videoId": "Tukdfd7b8rM",
-      "title": "起来与我同去���情人节特辑｜献给最温柔的良人）",
+      "title": "起来与我同去（情人节特辑｜献给最温柔的良人）",
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/Tukdfd7b8rM/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Tukdfd7b8rM"
@@ -326,31 +347,10 @@
     },
     {
       "videoId": "vVm5PharCd4",
-      "title": "伯利恒舞曲（2025圣诞献礼）",
+      "title": "伯利恒舞���（2025圣诞献礼）",
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/vVm5PharCd4/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/vVm5PharCd4"
-    },
-    {
-      "videoId": "QNnSKX9SAMk",
-      "title": "天使的颂歌（2025圣诞献礼）",
-      "channel": "4C Ministries",
-      "thumbnail": "https://i.ytimg.com/vi/QNnSKX9SAMk/mqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/QNnSKX9SAMk"
-    },
-    {
-      "videoId": "OVxkeZgydhs",
-      "title": "伯利恒之星 （2025圣诞献礼）",
-      "channel": "4C Ministries",
-      "thumbnail": "https://i.ytimg.com/vi/OVxkeZgydhs/mqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/OVxkeZgydhs"
-    },
-    {
-      "videoId": "SNlvq-mTQnc",
-      "title": "数算主恩",
-      "channel": "4C Ministries",
-      "thumbnail": "https://i.ytimg.com/vi/SNlvq-mTQnc/mqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/SNlvq-mTQnc"
     }
   ]
 }
