@@ -1,7 +1,14 @@
 {
-  "lastUpdated": "2026-04-09T06:31:48.513Z",
+  "lastUpdated": "2026-04-10T06:35:32.698Z",
   "totalVideos": 50,
   "videos": [
+    {
+      "videoId": "88MIQJRRBX0",
+      "title": "先求他的国",
+      "channel": "4C Ministries",
+      "thumbnail": "https://i.ytimg.com/vi/88MIQJRRBX0/mqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/88MIQJRRBX0"
+    },
     {
       "videoId": "cK_Ng_cR5fQ",
       "title": "去告诉这个世界 Go Tell the World",
@@ -116,21 +123,21 @@
     },
     {
       "videoId": "m3GDVdtPVZk",
-      "title": "���夜的守望（情人节特辑｜献给最温柔的良人）",
+      "title": "星夜的守望（情人节特辑｜献给最温柔的良人）",
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/m3GDVdtPVZk/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/m3GDVdtPVZk"
     },
     {
       "videoId": "8kXq75XtldQ",
-      "title": "清晨的翅膀（情人节特辑｜献给最温柔的良人）",
+      "title": "清晨的翅膀（情人节���辑｜献给最温柔的良人）",
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/8kXq75XtldQ/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/8kXq75XtldQ"
     },
     {
       "videoId": "P20bnPjBI9k",
-      "title": "何等美好（情人节特辑｜献给最温柔的良���）",
+      "title": "何等美好（情人节特辑｜献给最温柔的良人）",
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/P20bnPjBI9k/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/P20bnPjBI9k"
@@ -207,7 +214,7 @@
     },
     {
       "videoId": "UaYL71C_3IY",
-      "title": "圣子至高尊名(希伯来书1:4-14)",
+      "title": "圣子至高尊名(希���来书1:4-14)",
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/UaYL71C_3IY/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/UaYL71C_3IY"
@@ -344,13 +351,6 @@
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/3ouu-sy3U-Y/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/3ouu-sy3U-Y"
-    },
-    {
-      "videoId": "vVm5PharCd4",
-      "title": "伯利恒舞���（2025圣诞献礼）",
-      "channel": "4C Ministries",
-      "thumbnail": "https://i.ytimg.com/vi/vVm5PharCd4/mqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vVm5PharCd4"
     }
   ]
 }
