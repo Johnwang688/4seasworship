@@ -1,7 +1,14 @@
 {
-  "lastUpdated": "2026-04-20T06:43:37.642Z",
+  "lastUpdated": "2026-04-21T06:36:51.865Z",
   "totalVideos": 50,
   "videos": [
+    {
+      "videoId": "GtecOBLhStU",
+      "title": "重新得力",
+      "channel": "4C Ministries",
+      "thumbnail": "https://i.ytimg.com/vi/GtecOBLhStU/mqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GtecOBLhStU"
+    },
     {
       "videoId": "88MIQJRRBX0",
       "title": "先求他的国",
@@ -130,7 +137,7 @@
     },
     {
       "videoId": "8kXq75XtldQ",
-      "title": "清晨的翅膀（情人节���辑｜献给最温柔的良人）",
+      "title": "清晨的翅膀（情人节特辑｜献给最温柔的良人）",
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/8kXq75XtldQ/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/8kXq75XtldQ"
@@ -344,13 +351,6 @@
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/lYaUZ-POWgY/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/lYaUZ-POWgY"
-    },
-    {
-      "videoId": "3ouu-sy3U-Y",
-      "title": "虚己的君王（2025圣诞献礼）",
-      "channel": "4C Ministries",
-      "thumbnail": "https://i.ytimg.com/vi/3ouu-sy3U-Y/mqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/3ouu-sy3U-Y"
     }
   ]
 }
