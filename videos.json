@@ -1,7 +1,14 @@
 {
-  "lastUpdated": "2026-06-03T07:39:28.834Z",
+  "lastUpdated": "2026-06-04T07:36:08.035Z",
   "totalVideos": 50,
   "videos": [
+    {
+      "videoId": "6zHtAsX90cw",
+      "title": "定风波·共渡",
+      "channel": "4C Ministries",
+      "thumbnail": "https://i.ytimg.com/vi/6zHtAsX90cw/mqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6zHtAsX90cw"
+    },
     {
       "videoId": "OJps0zpp_FM",
       "title": "Nothing Shall Separate Us",
@@ -214,7 +221,7 @@
     },
     {
       "videoId": "8kXq75XtldQ",
-      "title": "清晨的翅膀（情人节特辑｜献给最温柔的良人）",
+      "title": "清晨的翅膀（���人节特辑｜献给最温柔的良人）",
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/8kXq75XtldQ/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/8kXq75XtldQ"
@@ -298,7 +305,7 @@
     },
     {
       "videoId": "UaYL71C_3IY",
-      "title": "��子至高尊名(希伯来书1:4-14)",
+      "title": "圣子至高尊名(希伯来书1:4-14)",
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/UaYL71C_3IY/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/UaYL71C_3IY"
@@ -344,13 +351,6 @@
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/Nb8uNdH0Jdc/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Nb8uNdH0Jdc"
-    },
-    {
-      "videoId": "EPlAI0AVNpE",
-      "title": "如此祷告",
-      "channel": "4C Ministries",
-      "thumbnail": "https://i.ytimg.com/vi/EPlAI0AVNpE/mqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/EPlAI0AVNpE"
     }
   ]
 }
