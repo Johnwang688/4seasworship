@@ -1,7 +1,14 @@
 {
-  "lastUpdated": "2026-06-05T07:27:30.210Z",
+  "lastUpdated": "2026-06-06T07:03:05.358Z",
   "totalVideos": 50,
   "videos": [
+    {
+      "videoId": "W0Z9qBPw9bc",
+      "title": "大雅·天粮颂",
+      "channel": "4C Ministries",
+      "thumbnail": "https://i.ytimg.com/vi/W0Z9qBPw9bc/mqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/W0Z9qBPw9bc"
+    },
     {
       "videoId": "6zHtAsX90cw",
       "title": "定风波·共渡",
@@ -172,7 +179,7 @@
     },
     {
       "videoId": "Et8mtO4xkCk",
-      "title": "各��他的羔羊 Lamb of Golgotha",
+      "title": "各各他的羔羊 Lamb of Golgotha",
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/Et8mtO4xkCk/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Et8mtO4xkCk"
@@ -207,7 +214,7 @@
     },
     {
       "videoId": "Tukdfd7b8rM",
-      "title": "起来与我同去（情人节特辑｜献给最温柔的良人）",
+      "title": "起来与我同去���情人节特辑｜献给最温柔的良人）",
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/Tukdfd7b8rM/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Tukdfd7b8rM"
@@ -221,7 +228,7 @@
     },
     {
       "videoId": "8kXq75XtldQ",
-      "title": "清晨的翅膀（���人节特辑｜献给最温柔的良人）",
+      "title": "清晨的翅膀（情人节特辑｜献给最温柔的良人）",
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/8kXq75XtldQ/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/8kXq75XtldQ"
@@ -344,13 +351,6 @@
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/loIN2c7qPyU/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/loIN2c7qPyU"
-    },
-    {
-      "videoId": "Nb8uNdH0Jdc",
-      "title": "静夜思",
-      "channel": "4C Ministries",
-      "thumbnail": "https://i.ytimg.com/vi/Nb8uNdH0Jdc/mqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Nb8uNdH0Jdc"
     }
   ]
 }
