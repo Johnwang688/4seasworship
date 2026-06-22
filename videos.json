@@ -1,7 +1,21 @@
 {
-  "lastUpdated": "2026-06-21T07:36:25.512Z",
+  "lastUpdated": "2026-06-22T07:57:09.855Z",
   "totalVideos": 50,
   "videos": [
+    {
+      "videoId": "U7wdeV4EctI",
+      "title": "应当一无挂虑",
+      "channel": "4C Ministries",
+      "thumbnail": "https://i.ytimg.com/vi/U7wdeV4EctI/mqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/U7wdeV4EctI"
+    },
+    {
+      "videoId": "sGjxAlfO79g",
+      "title": "高举耶稣",
+      "channel": "4C Ministries",
+      "thumbnail": "https://i.ytimg.com/vi/sGjxAlfO79g/mqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sGjxAlfO79g"
+    },
     {
       "videoId": "rCmD4HJ4Xqc",
       "title": "我留下平安给你们",
@@ -151,7 +165,7 @@
     },
     {
       "videoId": "88MIQJRRBX0",
-      "title": "先���他的国",
+      "title": "先求他的国",
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/88MIQJRRBX0/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/88MIQJRRBX0"
@@ -337,20 +351,6 @@
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/8Ab2uJ-4CtI/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/8Ab2uJ-4CtI"
-    },
-    {
-      "videoId": "3oWI2COay20",
-      "title": "水深之处 ( 路加福音 5:4)",
-      "channel": "4C Ministries",
-      "thumbnail": "https://i.ytimg.com/vi/3oWI2COay20/mqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/3oWI2COay20"
-    },
-    {
-      "videoId": "ZtzkOH4JDxE",
-      "title": "最疼痛的赦免",
-      "channel": "4C Ministries",
-      "thumbnail": "https://i.ytimg.com/vi/ZtzkOH4JDxE/mqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ZtzkOH4JDxE"
     }
   ]
 }
