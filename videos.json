@@ -1,7 +1,14 @@
 {
-  "lastUpdated": "2026-06-25T07:09:44.667Z",
+  "lastUpdated": "2026-06-26T07:16:27.113Z",
   "totalVideos": 50,
   "videos": [
+    {
+      "videoId": "xGx5HvSbLcg",
+      "title": "若有人在基督裡（哥林多後書 5:17）｜經文默想 · 過新生活",
+      "channel": "4C Ministries",
+      "thumbnail": "https://i.ytimg.com/vi/xGx5HvSbLcg/mqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xGx5HvSbLcg"
+    },
     {
       "videoId": "Mn0BYuyvTR4",
       "title": "應當一無掛慮（腓立比書 4:6-7）｜經文默想 · 過新生活",
@@ -67,7 +74,7 @@
     },
     {
       "videoId": "Wg3Fk8WlyYM",
-      "title": "你们���救，在乎归回安息",
+      "title": "你们得救，在乎归回安息",
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/Wg3Fk8WlyYM/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Wg3Fk8WlyYM"
@@ -298,7 +305,7 @@
     },
     {
       "videoId": "8kXq75XtldQ",
-      "title": "清晨的翅膀（情人节特辑｜献给最温柔的良人）",
+      "title": "清晨的翅膀（情人节特辑｜献���最温柔的良人）",
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/8kXq75XtldQ/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/8kXq75XtldQ"
@@ -340,17 +347,10 @@
     },
     {
       "videoId": "8Wgo4rGiIek",
-      "title": "重新得��",
+      "title": "重新得力",
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/8Wgo4rGiIek/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/8Wgo4rGiIek"
-    },
-    {
-      "videoId": "pf6VdDCmzgg",
-      "title": "属灵军装",
-      "channel": "4C Ministries",
-      "thumbnail": "https://i.ytimg.com/vi/pf6VdDCmzgg/mqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/pf6VdDCmzgg"
     }
   ]
 }
