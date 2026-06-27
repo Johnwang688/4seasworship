@@ -1,7 +1,14 @@
 {
-  "lastUpdated": "2026-06-26T07:16:27.113Z",
+  "lastUpdated": "2026-06-27T07:03:10.153Z",
   "totalVideos": 50,
   "videos": [
+    {
+      "videoId": "c8L3br2_DrI",
+      "title": "不再是我，乃是基督（加拉太書 2:20）｜經文默想 · 過新生活",
+      "channel": "4C Ministries",
+      "thumbnail": "https://i.ytimg.com/vi/c8L3br2_DrI/mqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/c8L3br2_DrI"
+    },
     {
       "videoId": "xGx5HvSbLcg",
       "title": "若有人在基督裡（哥林多後書 5:17）｜經文默想 · 過新生活",
@@ -305,7 +312,7 @@
     },
     {
       "videoId": "8kXq75XtldQ",
-      "title": "清晨的翅膀（情人节特辑｜献���最温柔的良人）",
+      "title": "清晨的翅膀（情人节特辑｜献给最温柔的良人）",
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/8kXq75XtldQ/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/8kXq75XtldQ"
@@ -344,13 +351,6 @@
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/pkSrec4vaxo/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/pkSrec4vaxo"
-    },
-    {
-      "videoId": "8Wgo4rGiIek",
-      "title": "重新得力",
-      "channel": "4C Ministries",
-      "thumbnail": "https://i.ytimg.com/vi/8Wgo4rGiIek/mqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/8Wgo4rGiIek"
     }
   ]
 }
