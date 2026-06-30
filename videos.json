@@ -1,7 +1,14 @@
 {
-  "lastUpdated": "2026-06-29T07:39:34.789Z",
+  "lastUpdated": "2026-06-30T07:16:07.869Z",
   "totalVideos": 50,
   "videos": [
+    {
+      "videoId": "hKFdinQBoSQ",
+      "title": "晝夜思想，謹守遵行（約書亞記 1:8）｜經文默想 · 過新生活",
+      "channel": "4C Ministries",
+      "thumbnail": "https://i.ytimg.com/vi/hKFdinQBoSQ/mqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hKFdinQBoSQ"
+    },
     {
       "videoId": "Y0ltLjAe60o",
       "title": "有了我的命令又遵守的（約翰福音 14:21）｜經文默想 · 過新生活",
@@ -158,7 +165,7 @@
     },
     {
       "videoId": "TKvviEVY5X8",
-      "title": "喜乐是我力量",
+      "title": "喜乐��我力量",
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/TKvviEVY5X8/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/TKvviEVY5X8"
@@ -344,13 +351,6 @@
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/Sba-lk1h3gQ/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Sba-lk1h3gQ"
-    },
-    {
-      "videoId": "eOjt0K4i3Dw",
-      "title": "安歇的水边（情人节特辑｜献给最温柔的良人）",
-      "channel": "4C Ministries",
-      "thumbnail": "https://i.ytimg.com/vi/eOjt0K4i3Dw/mqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/eOjt0K4i3Dw"
     }
   ]
 }
