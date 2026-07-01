@@ -1,7 +1,14 @@
 {
-  "lastUpdated": "2026-06-30T07:16:07.869Z",
+  "lastUpdated": "2026-07-01T07:28:11.743Z",
   "totalVideos": 50,
   "videos": [
+    {
+      "videoId": "9nr0MVx7yNU",
+      "title": "你們若常在我裡面（約翰福音 15:7）｜經文默想 · 過新生活",
+      "channel": "4C Ministries",
+      "thumbnail": "https://i.ytimg.com/vi/9nr0MVx7yNU/mqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9nr0MVx7yNU"
+    },
     {
       "videoId": "hKFdinQBoSQ",
       "title": "晝夜思想，謹守遵行（約書亞記 1:8）｜經文默想 · 過新生活",
@@ -165,7 +172,7 @@
     },
     {
       "videoId": "TKvviEVY5X8",
-      "title": "喜乐��我力量",
+      "title": "喜乐是我力量",
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/TKvviEVY5X8/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/TKvviEVY5X8"
@@ -344,13 +351,6 @@
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/P20bnPjBI9k/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/P20bnPjBI9k"
-    },
-    {
-      "videoId": "Sba-lk1h3gQ",
-      "title": "欢呼的田野（情人节特辑｜献给最温柔的良人）",
-      "channel": "4C Ministries",
-      "thumbnail": "https://i.ytimg.com/vi/Sba-lk1h3gQ/mqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Sba-lk1h3gQ"
     }
   ]
 }
