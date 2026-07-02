@@ -1,7 +1,14 @@
 {
-  "lastUpdated": "2026-07-01T07:28:11.743Z",
+  "lastUpdated": "2026-07-02T07:06:07.110Z",
   "totalVideos": 50,
   "videos": [
+    {
+      "videoId": "1fbsS73VBwc",
+      "title": "與主相交（約翰一書 1:3）｜經文默想 · 過新生活",
+      "channel": "4C Ministries",
+      "thumbnail": "https://i.ytimg.com/vi/1fbsS73VBwc/mqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1fbsS73VBwc"
+    },
     {
       "videoId": "9nr0MVx7yNU",
       "title": "你們若常在我裡面（約翰福音 15:7）｜經文默想 · 過新生活",
@@ -11,7 +18,7 @@
     },
     {
       "videoId": "hKFdinQBoSQ",
-      "title": "晝夜思想，謹守遵行（約書亞記 1:8）｜經文默想 · 過新生活",
+      "title": "晝夜思想，���守遵行（約書亞記 1:8）｜經文默想 · 過新生活",
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/hKFdinQBoSQ/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hKFdinQBoSQ"
@@ -344,13 +351,6 @@
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/8kXq75XtldQ/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/8kXq75XtldQ"
-    },
-    {
-      "videoId": "P20bnPjBI9k",
-      "title": "何等美好（情人节特辑｜献给最温柔的良人）",
-      "channel": "4C Ministries",
-      "thumbnail": "https://i.ytimg.com/vi/P20bnPjBI9k/mqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/P20bnPjBI9k"
     }
   ]
 }
