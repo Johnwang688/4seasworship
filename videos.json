@@ -1,7 +1,14 @@
 {
-  "lastUpdated": "2026-07-02T07:06:07.110Z",
+  "lastUpdated": "2026-07-03T08:52:48.722Z",
   "totalVideos": 50,
   "videos": [
+    {
+      "videoId": "bbWxt8ulM1g",
+      "title": "不可停止聚會（希伯來書 10:24-25）｜經文默想 · 過新生活",
+      "channel": "4C Ministries",
+      "thumbnail": "https://i.ytimg.com/vi/bbWxt8ulM1g/mqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bbWxt8ulM1g"
+    },
     {
       "videoId": "1fbsS73VBwc",
       "title": "與主相交（約翰一書 1:3）｜經文默想 · 過新生活",
@@ -18,7 +25,7 @@
     },
     {
       "videoId": "hKFdinQBoSQ",
-      "title": "晝夜思想，���守遵行（約書亞記 1:8）｜經文默想 · 過新生活",
+      "title": "晝夜思想，謹守遵行（約書亞記 1:8）｜經文默想 · 過新生活",
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/hKFdinQBoSQ/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hKFdinQBoSQ"
@@ -344,13 +351,6 @@
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/m3GDVdtPVZk/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/m3GDVdtPVZk"
-    },
-    {
-      "videoId": "8kXq75XtldQ",
-      "title": "清晨的翅膀（情人节特辑｜献给最温柔的良人）",
-      "channel": "4C Ministries",
-      "thumbnail": "https://i.ytimg.com/vi/8kXq75XtldQ/mqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/8kXq75XtldQ"
     }
   ]
 }
