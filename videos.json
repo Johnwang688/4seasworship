@@ -1,10 +1,24 @@
 {
-  "lastUpdated": "2026-07-06T10:01:57.595Z",
+  "lastUpdated": "2026-07-07T09:29:14.424Z",
   "totalVideos": 50,
   "videos": [
     {
+      "videoId": "-pe7Px9Dxk4",
+      "title": "我不以福音為恥（羅馬書 1:16）｜經文默想 · 過新生活",
+      "channel": "4C Ministries",
+      "thumbnail": "https://i.ytimg.com/vi/-pe7Px9Dxk4/mqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-pe7Px9Dxk4"
+    },
+    {
+      "videoId": "Fgrf-kx1YYo",
+      "title": "得人如得魚（馬太福音 4:19）｜經文默想 · 過新生活",
+      "channel": "4C Ministries",
+      "thumbnail": "https://i.ytimg.com/vi/Fgrf-kx1YYo/mqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Fgrf-kx1YYo"
+    },
+    {
       "videoId": "bbWxt8ulM1g",
-      "title": "不可停止聚會（希伯來書 10:24-25）｜經文默想 · 過新生活",
+      "title": "不可停止聚會（希伯來書 10:24-25）｜經文默想 · 過新生��",
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/bbWxt8ulM1g/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/bbWxt8ulM1g"
@@ -249,7 +263,7 @@
     },
     {
       "videoId": "85jgytxOq-c",
-      "title": "得胜的清晨 Victorious Morning",
+      "title": "得胜的清��� Victorious Morning",
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/85jgytxOq-c/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/85jgytxOq-c"
@@ -337,20 +351,6 @@
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/hIMlJutRfFg/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hIMlJutRfFg"
-    },
-    {
-      "videoId": "Tukdfd7b8rM",
-      "title": "起来与我同去（情人节特辑｜献给最温柔的良人）",
-      "channel": "4C Ministries",
-      "thumbnail": "https://i.ytimg.com/vi/Tukdfd7b8rM/mqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Tukdfd7b8rM"
-    },
-    {
-      "videoId": "m3GDVdtPVZk",
-      "title": "星夜的守望（情人节特辑｜献给最温柔的良人）",
-      "channel": "4C Ministries",
-      "thumbnail": "https://i.ytimg.com/vi/m3GDVdtPVZk/mqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/m3GDVdtPVZk"
     }
   ]
 }
