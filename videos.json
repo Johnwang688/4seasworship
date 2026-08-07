@@ -1,7 +1,14 @@
 {
-  "lastUpdated": "2026-08-06T06:52:45.888Z",
+  "lastUpdated": "2026-08-07T06:23:19.397Z",
   "totalVideos": 50,
   "videos": [
+    {
+      "videoId": "Jtv0CygULcs",
+      "title": "永恆之光｜東方聖詠",
+      "channel": "4C Ministries",
+      "thumbnail": "https://i.ytimg.com/vi/Jtv0CygULcs/mqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Jtv0CygULcs"
+    },
     {
       "videoId": "-pe7Px9Dxk4",
       "title": "我不以福音為恥（羅馬書 1:16）｜經文默想 · 過新生活",
@@ -18,7 +25,7 @@
     },
     {
       "videoId": "bbWxt8ulM1g",
-      "title": "不可停止聚會（希伯來書 10:24-25）｜經文默想 · 過新生��",
+      "title": "不可停止聚會（希伯來書 10:24-25）｜經文默想 · 過新生活",
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/bbWxt8ulM1g/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/bbWxt8ulM1g"
@@ -39,7 +46,7 @@
     },
     {
       "videoId": "hKFdinQBoSQ",
-      "title": "晝夜思想，謹守遵行（約書亞記 1:8）｜經文默想 · 過新生活",
+      "title": "晝夜思想，謹守遵行（約書��記 1:8）｜經文默想 · 過新生活",
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/hKFdinQBoSQ/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hKFdinQBoSQ"
@@ -277,7 +284,7 @@
     },
     {
       "videoId": "JbZuWb4fkVY",
-      "title": "犹大的狮子 Lion of Judah",
+      "title": "犹��的狮子 Lion of Judah",
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/JbZuWb4fkVY/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/JbZuWb4fkVY"
@@ -344,13 +351,6 @@
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/URAW-hkelbQ/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/URAW-hkelbQ"
-    },
-    {
-      "videoId": "hIMlJutRfFg",
-      "title": "新年的钟声（新年特辑｜新的一年祝福满满）",
-      "channel": "4C Ministries",
-      "thumbnail": "https://i.ytimg.com/vi/hIMlJutRfFg/mqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/hIMlJutRfFg"
     }
   ]
 }
