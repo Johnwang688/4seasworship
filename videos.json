@@ -1,7 +1,14 @@
 {
-  "lastUpdated": "2026-08-07T06:23:19.397Z",
+  "lastUpdated": "2026-08-08T06:13:35.345Z",
   "totalVideos": 50,
   "videos": [
+    {
+      "videoId": "y_m4ZA4NmwA",
+      "title": "主為我牧｜東方聖詠",
+      "channel": "4C Ministries",
+      "thumbnail": "https://i.ytimg.com/vi/y_m4ZA4NmwA/mqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/y_m4ZA4NmwA"
+    },
     {
       "videoId": "Jtv0CygULcs",
       "title": "永恆之光｜東方聖詠",
@@ -46,7 +53,7 @@
     },
     {
       "videoId": "hKFdinQBoSQ",
-      "title": "晝夜思想，謹守遵行（約書��記 1:8）｜經文默想 · 過新生活",
+      "title": "晝夜思想，謹守遵行（約書亞記 1:8）｜經文默想 · 過新生活",
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/hKFdinQBoSQ/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hKFdinQBoSQ"
@@ -284,7 +291,7 @@
     },
     {
       "videoId": "JbZuWb4fkVY",
-      "title": "犹��的狮子 Lion of Judah",
+      "title": "犹大的狮子 Lion of Judah",
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/JbZuWb4fkVY/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/JbZuWb4fkVY"
@@ -344,13 +351,6 @@
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/tSUA5gLAPa8/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/tSUA5gLAPa8"
-    },
-    {
-      "videoId": "URAW-hkelbQ",
-      "title": "当新曙光来临（新年特辑｜新的一年祝福满满）",
-      "channel": "4C Ministries",
-      "thumbnail": "https://i.ytimg.com/vi/URAW-hkelbQ/mqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/URAW-hkelbQ"
     }
   ]
 }
