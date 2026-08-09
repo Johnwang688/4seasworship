@@ -1,7 +1,14 @@
 {
-  "lastUpdated": "2026-08-08T06:13:35.345Z",
+  "lastUpdated": "2026-08-09T06:14:25.138Z",
   "totalVideos": 50,
   "videos": [
+    {
+      "videoId": "pjSH4MTZWrs",
+      "title": "十架榮耀｜東方聖詠",
+      "channel": "4C Ministries",
+      "thumbnail": "https://i.ytimg.com/vi/pjSH4MTZWrs/mqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pjSH4MTZWrs"
+    },
     {
       "videoId": "y_m4ZA4NmwA",
       "title": "主為我牧｜東方聖詠",
@@ -74,7 +81,7 @@
     },
     {
       "videoId": "c8L3br2_DrI",
-      "title": "不再是我，乃是基督（加拉太書 2:20）｜經文默想 · 過新生活",
+      "title": "不再是���，乃是基督（加拉太書 2:20）｜經文默想 · 過新生活",
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/c8L3br2_DrI/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/c8L3br2_DrI"
@@ -344,13 +351,6 @@
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/3kgNmSqkK1I/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/3kgNmSqkK1I"
-    },
-    {
-      "videoId": "tSUA5gLAPa8",
-      "title": "新春的祝福（新年特辑｜新的一年祝福满满）",
-      "channel": "4C Ministries",
-      "thumbnail": "https://i.ytimg.com/vi/tSUA5gLAPa8/mqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/tSUA5gLAPa8"
     }
   ]
 }
