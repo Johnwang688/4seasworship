@@ -1,7 +1,14 @@
 {
-  "lastUpdated": "2026-08-10T06:26:33.325Z",
+  "lastUpdated": "2026-08-11T06:17:51.888Z",
   "totalVideos": 50,
   "videos": [
+    {
+      "videoId": "AfPjJWMu7KY",
+      "title": "聖靈降臨｜東方聖詠",
+      "channel": "4C Ministries",
+      "thumbnail": "https://i.ytimg.com/vi/AfPjJWMu7KY/mqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AfPjJWMu7KY"
+    },
     {
       "videoId": "KC_Q7oJdtGo",
       "title": "空墓清晨｜東方聖詠",
@@ -88,7 +95,7 @@
     },
     {
       "videoId": "c8L3br2_DrI",
-      "title": "不再是我，乃是基督��加拉太書 2:20）｜經文默想 · 過新生活",
+      "title": "不再是我，乃是基督（加拉太書 2:20）｜經文默想 · 過新生活",
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/c8L3br2_DrI/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/c8L3br2_DrI"
@@ -344,13 +351,6 @@
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/ocUf3jmYiPE/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ocUf3jmYiPE"
-    },
-    {
-      "videoId": "Et8mtO4xkCk",
-      "title": "各各他的羔羊 Lamb of Golgotha",
-      "channel": "4C Ministries",
-      "thumbnail": "https://i.ytimg.com/vi/Et8mtO4xkCk/mqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Et8mtO4xkCk"
     }
   ]
 }
