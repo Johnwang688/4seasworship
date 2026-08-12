@@ -1,7 +1,14 @@
 {
-  "lastUpdated": "2026-08-11T06:17:51.888Z",
+  "lastUpdated": "2026-08-12T06:27:53.854Z",
   "totalVideos": 50,
   "videos": [
+    {
+      "videoId": "Dpbhvb_ZNoo",
+      "title": "生命活水｜東方聖詠",
+      "channel": "4C Ministries",
+      "thumbnail": "https://i.ytimg.com/vi/Dpbhvb_ZNoo/mqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Dpbhvb_ZNoo"
+    },
     {
       "videoId": "AfPjJWMu7KY",
       "title": "聖靈降臨｜東方聖詠",
@@ -344,13 +351,6 @@
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/vZNGflNdwX8/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/vZNGflNdwX8"
-    },
-    {
-      "videoId": "ocUf3jmYiPE",
-      "title": "被压榨的橄榄 Crushed Olive",
-      "channel": "4C Ministries",
-      "thumbnail": "https://i.ytimg.com/vi/ocUf3jmYiPE/mqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ocUf3jmYiPE"
     }
   ]
 }
