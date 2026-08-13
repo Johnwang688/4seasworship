@@ -1,7 +1,14 @@
 {
-  "lastUpdated": "2026-08-12T06:27:53.854Z",
+  "lastUpdated": "2026-08-13T06:29:22.232Z",
   "totalVideos": 50,
   "videos": [
+    {
+      "videoId": "xMPGXpJ6qzM",
+      "title": "萬國讚美｜東方聖詠",
+      "channel": "4C Ministries",
+      "thumbnail": "https://i.ytimg.com/vi/xMPGXpJ6qzM/mqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xMPGXpJ6qzM"
+    },
     {
       "videoId": "Dpbhvb_ZNoo",
       "title": "生命活水｜東方聖詠",
@@ -344,13 +351,6 @@
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/91ig3wpHzgE/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/91ig3wpHzgE"
-    },
-    {
-      "videoId": "vZNGflNdwX8",
-      "title": "第九个钟头 The Ninth Hour",
-      "channel": "4C Ministries",
-      "thumbnail": "https://i.ytimg.com/vi/vZNGflNdwX8/mqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vZNGflNdwX8"
     }
   ]
 }
