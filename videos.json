@@ -1,7 +1,14 @@
 {
-  "lastUpdated": "2026-08-13T06:29:22.232Z",
+  "lastUpdated": "2026-08-14T06:27:35.987Z",
   "totalVideos": 50,
   "videos": [
+    {
+      "videoId": "hXH063ftHJc",
+      "title": "聖城永福｜東方聖詠",
+      "channel": "4C Ministries",
+      "thumbnail": "https://i.ytimg.com/vi/hXH063ftHJc/mqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hXH063ftHJc"
+    },
     {
       "videoId": "xMPGXpJ6qzM",
       "title": "萬國讚美｜東方聖詠",
@@ -158,7 +165,7 @@
     },
     {
       "videoId": "3tazG6dk240",
-      "title": "我的心平稳安静",
+      "title": "我的心平稳安���",
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/3tazG6dk240/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/3tazG6dk240"
@@ -344,13 +351,6 @@
       "channel": "4C Ministries",
       "thumbnail": "https://i.ytimg.com/vi/rXAzxvc9rHw/mqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/rXAzxvc9rHw"
-    },
-    {
-      "videoId": "91ig3wpHzgE",
-      "title": "乐园的诺言 Promise of Paradise",
-      "channel": "4C Ministries",
-      "thumbnail": "https://i.ytimg.com/vi/91ig3wpHzgE/mqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/91ig3wpHzgE"
     }
   ]
 }
